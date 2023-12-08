@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Título Aquí</title>
+    <link rel="stylesheet" href="css/Css.css">
+</head>
+
+<body>
+
+    <header style="background: #ffffff;">
+        <div>
+            <img src="Imagenes/LOGO.png" width="130" height="55" alt="Logo">
+        </div>
+    </header>
+
+    <div class="fondohome">
+        <!-- Descarga de la aplicación en dispositivos móviles -->
+        <section class="mobile-section">
+            <div
+                style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;">
+                <p style="color: rgb(255, 255, 255);">Descarga nuestra nueva App móvil</p>
+                <div style="text-align: center;">
+                    <button class="mi-boton" onclick="descargarApp()">Descargar aquí</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Código QR en computadoras -->
+        <section class="desktop-section">
+            <div
+                style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;">
+                <p style="color: rgb(255, 255, 255);">Escanea el código QR para vivir la experiencia.</p>
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://drive.google.com/file/d/1tHrgh6gCLjG4j3qNVbDVFkA7OQ54odhV/view"
+                    alt="Código QR">
+            </div>
+        </section>
+    </div>
+
+</body>
+<script src="js/aplicacion.js"></script>
+</html>

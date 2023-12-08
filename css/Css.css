@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.fondohome {
+    background: url('Inicio.png') center center/cover no-repeat;
+
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    .desktop-section {
+        display: none;
+    }
+}
+
+/* Estilos específicos para computadoras */
+@media only screen and (min-width: 769px) {
+    .mobile-section {
+        display: none;
+    }
+}
+
+/* Estilos para computadoras */
+
+.mi-boton {
+    padding: 10px 20px;
+    /* Ajusta el relleno del botón según sea necesario */
+    font-size: 16px;
+    /* Tamaño de la letra del botón */
+    color: #fff;
+    /* Color del texto del botón */
+    background-color: #3498db;
+    /* Color de fondo del botón */
+    border: none;
+    /* Elimina el borde del botón */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    cursor: pointer;
+    /* Cambia el cursor al pasar sobre el botón */
+}
